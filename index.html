@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player</title>
+    <link rel="icon" href="/images/spotify-icon.svg" type="icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <a href="#">
+                <img  src="./images/SpotifyLogo.png" alt="logo" />
+            </a>
+        </div>           
+        <div class="nav">
+            <ul>
+                <li>
+                    <ion-icon class="icon" name="home"></ion-icon>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <ion-icon class="icon" name="search"></ion-icon>
+                    <span>Search</span>
+                </li>
+                <li>
+                    <ion-icon class="icon" name="library"></ion-icon>
+                    <span>Your Library</span></li>
+
+            </ul>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>
+                    <ion-icon class="icon" name="add-circle"></ion-icon>
+                    <span>Create Playlist</span>
+                </li>
+                <li>
+                    <ion-icon class="icon" name="heart"></ion-icon>
+                    <span>Liked Songs</span>
+                </li>
+            </ul>
+        </div>
+        <div class="policies">
+            <ul>
+                <li> 
+                    <span>Cookies</span>
+                </li>
+                <li>
+                    <span>English</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="header">
+            <div class="fwd-bkwd-button">
+                <button id="back" type="button " class="button disabled"> 
+                    <img src="./icons/chevron-back.svg"/>
+                </button>
+                <button id="fwd" type="button" class="button disabled">
+                    <img src="./icons/chevron-forward.svg" style="width:min-content">
+                </button>
+            </div>
+            <div class="navbar">
+                <div class="ul">
+                    <ul>
+                        <li>
+                            <span> Premium</span>
+                        </li>
+                        <li>
+                            <span> Support</span>
+                        </li>
+                        <li>
+                            <span> Download</span>
+                        </li>
+                        <li>
+                            <span> Sign Up</span>
+                        </li>
+                    </ul>
+                </div>
+              
+                <div class="button">
+                    <button id="login" type="button"> <b>Log in</b></button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="show">
+            <div >
+                <h2>Focus</h2>
+            </div>
+            <div class="show-all">
+                <span>show all</span>
+            </div>
+        </div>
+        <div class="show">
+            <div  id="peacefulPiano" class="w3-panel w3-card">
+                <img class="cover" src="./images/peacefulPiano.jpeg">
+                <h5> <b>Peaceful Piano</b></h5>
+                <p>relax and indulge with <br>beautiful piano pieces</p>
+            </div>
+            <div id="deepFocus" class="w3-panel w3-card">
+                <img class="cover" src="./images/deepFocus.jpeg">
+                <div class="card"></div>
+                <h5> <b>Deep Focus</b></h5>
+                <p>Keep calm and focus with <br>ambient and post-rock..</p>
+            </div>
+            <div id="instrumentalStudy" class="w3-panel w3-card">
+                <img  class="cover"src="./images/instrumental study.jpeg">
+                <div class="card"></div>
+                <h5> <b>Instrumental Study</b></h5>
+                <p>focus with the soft study music <br>in the background.</p>
+            </div>
+            <div id="jazzVibes" class="w3-panel w3-card">
+                <img class="cover" src="./images/jazzVibes.jpeg">
+              
+                    <h5> <b>Jazz Vibes</b></h5>
+                    <p>the original chill <br>instrumental beats playlist.</p>
+               
+            </div>
+
+        </div>
+        <div class="show">
+            <div >
+                <h2 >Spotify Playlist</h2>
+            </div>
+            <div class="show-all">
+                <span>show all</span>
+            </div>
+        </div>
+        <div class="show">
+            <div  id="peacefulPiano" class="w3-panel w3-card">
+                <img class="cover" src="./images/tth.jpeg">
+                <h5> <b>Today's Top Hits </b></h5>
+                <p>Miley cyrus is on top of the<br>Hottest 50!</p>
+            </div>
+            <div id="deepFocus" class="w3-panel w3-card">
+                <img class="cover" src="./images/rapCavier.jpg">
+                <div class="card"></div>
+                <h5> <b>RapCavier</b></h5>
+                <p>New music from Metro<br>Boomin, NLE choppa and...</p>
+            </div>
+            <div id="instrumentalStudy" class="w3-panel w3-card">
+                <img  class="cover"src="./images/rock.jpeg">
+                <div class="card"></div>
+                <h5> <b>Rock Classics</b></h5>
+                <p>Rock legends and & epic songs<br>that continues to inspire..</p>
+            </div>
+            <div id="jazzVibes" class="w3-panel w3-card">
+                <img class="cover" src="./images/all out.jpeg">
+                <div class="card"></div>
+                    <h5> <b>All out of 2010s</b></h5>
+                    <p>The biggest songs of the<br>2010s.</p>
+               </div>
+            </div>
+
+        </div>
+       
+    </div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

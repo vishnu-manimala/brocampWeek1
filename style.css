@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Popins' ,sans-serif;
+    font-weight: bold;
+
+}
+P {
+    font-weight: normal;
+}
+body {
+   
+    color: white;
+   background-color: rgb(46, 52, 51);
+}
+.sidebar {
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    padding-top: 25px;
+    padding-left: 25px;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sidebar .logo img {
+    width: 130px;
+    
+}
+.sidebar .nav {
+    padding-top: 20px;
+}
+.sidebar .nav ul {
+    list-style: none;
+   
+}
+.sidebar .nav ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    size: 20px;
+    
+}
+.sidebar .nav ul li span {
+    font-size:small;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.sidebar .policies {
+    padding-top: 250px;
+}
+.main-content {
+    margin-left: 200px;
+    margin-bottom: 100px;
+    
+}
+.header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 16, 9);
+ 
+}
+.header .navbar {
+    display: flex;
+    
+}
+.header .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 10px;
+
+}
+.fwd-bkwd-button {
+padding-left: 10px;
+padding-top: 10px;
+
+}
+#back, #fwd {
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: none;
+    color: white;
+}
+.header .navbar .ul li {
+    margin: 10px;
+    font-size: 20px;
+}
+.button {
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    border-style: none;
+}
+button img {
+    width: 50px;
+    height: 30px;
+}
+#login {
+    border-radius: 25px; 
+    background-color: white;
+    width: 125px;
+ }
+ .show {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+ }
+.cover {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.show h5 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.show p{
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
